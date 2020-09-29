@@ -1,11 +1,12 @@
 package com.androiddevs.mvvmnewsapp.data.api
 
 import com.androiddevs.mvvmnewsapp.const.Constanta.Companion.API_KEY
+import com.androiddevs.mvvmnewsapp.data.model.MoviePopular
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface MoviePopular {
+interface MoviePopularApi {
 
 
     @GET("3/movie/popular")
